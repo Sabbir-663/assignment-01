@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.azeret-mono-<uniquifier> {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Section 1 */
+.btn11{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-right: 60px;
+    font-family: "Azeret Mono";
+}
+
+.btn1{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 20px 14px 20px;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 6px;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    background: transparent;
+    margin-right: 80px;
+    font-family: "Azeret Mono";
+}
+.bgimg{
+    background-image:url(../assets/Hero-bg.png);
+    height: 550px;
+    padding: 50px;
+}
+.main-content{
+    max-width: 998px;
+    margin-top: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-left: 360px;
+    font-family: "Azeret Mono";
+   
+}  
+main-content img{
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+.main-tittle{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin-bottom: 24px;
+    font-family: "Azeret Mono";
+     
+}
+.main-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 32px;
+    opacity: 0.8;
+    font-family: "Azeret Mono";
+}
+.btn2{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 20px 14px 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 6px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    background: rgb(0, 0, 0);
+    font-family: "Azeret Mono";
+}
+
+  
+  .part1-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 100;
+    font-family: mono;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .part1-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 48px;
+    font-family: "Azeret Mono";
+ }
