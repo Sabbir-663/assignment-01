@@ -83,10 +83,6 @@ main-content img{
     font-family: "Azeret Mono";
 }
 
-  
-  
- 
-
  
   /* Section-2 */ /* Section-2 */ /* Section-2 */ /* Section-2 */ /* Section-2 */ /* Section-2 */ /* Section-2 */ /* Section-2 */
 
@@ -112,13 +108,12 @@ main-content img{
 
 
   .section-2{
-    padding: 80px 96px;
-    margin: auto;
-    margin-top: 60px;
-    max-width: 1140px;
-   border: 2px solid red;
-   background-color: rgba(208, 209, 211, 0.299);
-   border-radius: 20px;
+        padding: 80px 96px;
+        margin: auto;
+        margin-top: 60px;
+        max-width: 1140px;
+        background-color: rgba(208, 209, 211, 0.299);
+        border-radius: 20px;
 
    
   }
@@ -142,16 +137,16 @@ main-content img{
 .point-content{
     margin: auto 0px;
     max-width: 478px;
-  text-align: left;
-  margin-left: 40px;
+    text-align: left;
+    margin-left: 40px;
 }
 .point-title{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-   text-align: left;
-   font-family: "Azeret Mono";
+    text-align: left;
+    font-family: "Azeret Mono";
     margin-bottom: 24px;
     opacity: 0.8;
     
@@ -181,4 +176,46 @@ main-content img{
 }
 .point-images{
     margin: auto 40px;
+}
+
+/* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 */
+
+.sec3-content{
+    
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.sec3-title{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.sec3-description{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 48px;
+}
+.iframe{
+    max-width: 1070px;
+        border-radius: 16px;
+        text-align: center;
+        margin: 0 auto;
+}
+
+.iframe iframe{
+    width: 1060px;
+    height: 500px;
+    border-radius: 16px;
+    padding: 20px;
 }
