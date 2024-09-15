@@ -35,7 +35,7 @@
     font-family: "Azeret Mono";
 }
 .bgimg{
-    background-image:url(../assets/Hero-bg.png);
+    background-image:url('../assets/Hero-bg.png');
     height: 550px;
     padding: 50px;
 }
@@ -418,7 +418,8 @@ main-content img{
 
 .section-6{
     max-width: 1140px;
-        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/handshake.jpg');
+      
+        background-image: url('../assets/handshake.jpg');
         border-radius: 16px;
         background-position: center;
         text-align: center;
